@@ -13,3 +13,4 @@ app.listen(3000, function() {
 app.post('/quotes', (req, res) => {
   console.log('Hellooooooooooooooooo!')
 })
+const MongoClient = require('mongodb').MongoClient
